@@ -1,5 +1,4 @@
 import "../css/ContentStyle.css";
-import "../css/SkillsStyle.css";
 import "../css/PortfolioStyle.css";
 
 function Portfolio() {
