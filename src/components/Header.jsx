@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <NavBar />
-      <div className="header-wrapper">
+      <div className="header-wrapper" id="about">
         <div className="introduce-wrapper">
           <p className="greeting-text">
             Sawadee

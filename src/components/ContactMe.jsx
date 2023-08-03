@@ -5,7 +5,7 @@ function ContactMe() {
   const githubProfileURL = "https://github.com/nuntawat168";
   const instagramProfileURL = "https://www.instagram.com/ice.nuntaw/";
   return (
-    <div className="content-wrapper">
+    <div className="content-wrapper" id="contact">
       <div className="content-title-wrapper">
         <p className="content-title-text-1">Contact</p>
         <p className="content-title-text-2">Me</p>

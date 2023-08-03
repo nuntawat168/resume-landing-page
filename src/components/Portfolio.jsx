@@ -3,7 +3,7 @@ import "../css/PortfolioStyle.css";
 
 function Portfolio() {
   return (
-    <div className="content-wrapper">
+    <div className="content-wrapper" id="portfolio">
       <div className="content-title-wrapper">
         <p className="content-title-text-1">My</p>
         <p className="content-title-text-2">Portfolio</p>
