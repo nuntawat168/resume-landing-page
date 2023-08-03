@@ -1,5 +1,11 @@
+import Skills from "./Skills";
+
 function Content() {
-  return <div>Content</div>;
+  return (
+    <>
+      <Skills />
+    </>
+  );
 }
 
 export default Content;
