@@ -1,0 +1,66 @@
+.content-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.skill-icon {
+  margin-top: 20px;
+  width: 225px;
+  height: 159px;
+}
+
+.skill-title-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+  margin-top: 9px;
+}
+.skill-title-1 {
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.375px;
+}
+
+.skill-title-2 {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.375px;
+}
+
+.skill-detail {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.99px;
+
+  margin-top: 1px;
+}
+
+/* header background ellipse style */
+.background-ellipse-4 {
+  position: absolute;
+  top: 160px;
+  left: 250px;
+  z-index: -1;
+}
+
+.background-ellipse-5 {
+  position: absolute;
+  top: -120px;
+  left: 0px;
+  z-index: -1;
+}

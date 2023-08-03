@@ -1,5 +1,15 @@
+import Skills from "./Skills";
+import Portfolio from "./Portfolio";
+import ContactMe from "./ContactMe";
+
 function Content() {
-  return <div>Content</div>;
+  return (
+    <>
+      <Skills />
+      <Portfolio />
+      <ContactMe />
+    </>
+  );
 }
 
 export default Content;
