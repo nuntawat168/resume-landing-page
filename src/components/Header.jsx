@@ -8,7 +8,7 @@ function Header() {
       <div className="header-wrapper">
         <div className="introduce-wrapper">
           <p className="greeting-text">
-            Sawandee
+            Sawadee
             <img
               src="src\assets\background\Ellipse-1.svg"
               className="background-ellipse-1"
