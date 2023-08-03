@@ -13,7 +13,7 @@
   --highlight-color: #4581F6
 
   --text-primary-color: var(var(--primary-color));
-  --text-sexondary-color: var(var(--secondary-color))
+  --text-secondary-color: var(var(--secondary-color))
 
   --bg-color: #fff;
 }
