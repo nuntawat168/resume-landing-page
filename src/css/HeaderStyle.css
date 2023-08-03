@@ -1,0 +1,83 @@
+/* header style */
+.header-wrapper {
+  margin: 0px 143px 0px 145px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduce-wrapper {
+  position: relative;
+}
+
+.logo-brand-wrapper {
+  position: relative;
+}
+
+.greeting-text {
+  color: #002265;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.175px;
+
+  margin-top: 84px;
+  position: relative;
+}
+
+.name-and-role-text {
+  color: #002265;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.25px;
+
+  margin-right: 86px;
+}
+
+.introduce-myself {
+  color: #082032;
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.345px;
+
+  margin-top: 32px;
+  margin-right: 66px;
+
+  position: relative;
+}
+
+.logo-brand {
+  margin-top: 41px;
+  width: 851px;
+  height: 560px;
+
+  position: relative;
+}
+
+/* header background ellipse style */
+.background-ellipse-1 {
+  position: absolute;
+  top: -130px;
+  left: 110px;
+}
+
+.background-ellipse-2 {
+  position: absolute;
+  top: 65px;
+  left: 280px;
+}
+
+.background-ellipse-3 {
+  position: absolute;
+  top: 120px;
+  left: 540px;
+  z-index: -1;
+}
