@@ -1,13 +1,13 @@
+import React from "react";
 import "../css/FooterStyle.css";
+
+import footerVector from "../assets/footer/footer-vector.svg";
 
 function Footer() {
   return (
     <div className="footer-wrapper">
       <p className="design-by-text">Design By Rauliqbal</p>
-      <img
-        src="src\assets\footer\footer-vector.svg"
-        className="footer-vector"
-      />
+      <img src={footerVector} className="footer-vector" alt="footer vector" />
     </div>
   );
 }
