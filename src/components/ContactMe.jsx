@@ -1,9 +1,16 @@
+import React from "react";
 import "../css/ContentStyle.css";
 import "../css/ContactMeStyle.css";
+
+import githubLogo from "../assets/content/github-logo.svg";
+import instagramLogo from "../assets/content/instagram-logo.svg";
+import emailLogo from "../assets/content/e-mail-logo.svg";
+import telephoneLogo from "../assets/content/telephone-logo.svg";
 
 function ContactMe() {
   const githubProfileURL = "https://github.com/nuntawat168";
   const instagramProfileURL = "https://www.instagram.com/ice.nuntaw/";
+
   return (
     <div className="content-wrapper" id="contact">
       <div className="content-title-wrapper">
@@ -18,7 +25,7 @@ function ContactMe() {
           className="contact-link"
         >
           <div className="contact-me-box">
-            <img src="src\assets\content\github-logo.svg" alt="github logo" />
+            <img src={githubLogo} alt="github logo" />
             <p className="contact-title">Github</p>
           </div>
         </a>
@@ -30,10 +37,7 @@ function ContactMe() {
           className="contact-link"
         >
           <div className="contact-me-box">
-            <img
-              src="src\assets\content\instagram-logo.svg"
-              alt="instagram logo"
-            />
+            <img src={instagramLogo} alt="instagram logo" />
             <p className="contact-title">Instagram</p>
           </div>
         </a>
@@ -44,7 +48,7 @@ function ContactMe() {
             alert("Email: nuntawat_168@outlook.com");
           }}
         >
-          <img src="src\assets\content\e-mail-logo.svg" alt="e-mail logo" />
+          <img src={emailLogo} alt="e-mail logo" />
           <p className="contact-title">Email</p>
         </div>
 
@@ -54,10 +58,7 @@ function ContactMe() {
             alert("Call: (+66)92-920-0081");
           }}
         >
-          <img
-            src="src\assets\content\telephone-logo.svg"
-            alt="telephone logo"
-          />
+          <img src={telephoneLogo} alt="telephone logo" />
           <p className="contact-title">Telp</p>
         </div>
       </div>
