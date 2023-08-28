@@ -1,7 +1,5 @@
-/* header style */
 .header-wrapper {
   margin: 0px 143px 0px 145px;
-
   display: flex;
   justify-content: space-between;
 }
@@ -22,7 +20,6 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.175px;
-
   margin-top: 84px;
   position: relative;
 }
@@ -35,7 +32,6 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.25px;
-
   margin-right: 86px;
 }
 
@@ -47,10 +43,8 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.345px;
-
   margin-top: 32px;
   margin-right: 66px;
-
   position: relative;
 }
 
@@ -58,11 +52,9 @@
   margin-top: 41px;
   width: 851px;
   height: 560px;
-
   position: relative;
 }
 
-/* header background ellipse style */
 .background-ellipse-1 {
   position: absolute;
   top: -130px;

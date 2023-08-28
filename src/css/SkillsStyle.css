@@ -46,11 +46,9 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.99px;
-
   margin-top: 1px;
 }
 
-/* header background ellipse style */
 .background-ellipse-4 {
   position: absolute;
   top: 160px;
