@@ -1,5 +1,19 @@
+import React from "react";
 import "../css/ContentStyle.css";
 import "../css/PortfolioStyle.css";
+
+import eSendpayLogo from "../assets/content/e-sendpay-project-logo.svg";
+import eSendpayImage from "../assets/content/e-sendpay-project-img.svg";
+import eSendpayEllipse from "../assets/content/e-sendpay-project-ellipse.svg";
+import eCommerceLogo from "../assets/content/e-commerce-project-logo.svg";
+import eCommerceImage from "../assets/content/e-commerce-project-img.svg";
+import eCommerceEllipse from "../assets/content/e-commerce-project-ellipse.svg";
+import beatsLearningLogo from "../assets/content/beats-learning-project-logo.svg";
+import beatsLearningImage from "../assets/content/beats-learning-project-img.svg";
+import beatsLearningEllipse from "../assets/content/beats-learing-ellipse.svg";
+
+import ellipse6 from "../assets/background/Ellipse-6.svg";
+import ellipse7 from "../assets/background/Ellipse-7.svg";
 
 function Portfolio() {
   return (
@@ -11,59 +25,44 @@ function Portfolio() {
       <div className="content-box-wrapper">
         <div className="content-box content-portfolio">
           <img
-            src="src\assets\content\e-sendpay-project-logo.svg"
+            src={eSendpayLogo}
             alt="e-sendpay project logo"
             className="project-logo"
           />
           <img
-            src="src/assets/content/e-sendpay-project-img.svg"
+            src={eSendpayImage}
             alt="e-sendpay project image"
             className="project-img"
           />
-          <img
-            src="src\assets\content\e-sendpay-project-ellipse.svg"
-            className="project-ellipse"
-          />
-          <img
-            src="src\assets\background\Ellipse-6.svg"
-            className="background-ellipse-6"
-          />
+          <img src={eSendpayEllipse} className="project-ellipse" />
+          <img src={ellipse6} className="background-ellipse-6" />
         </div>
         <div className="content-box content-portfolio">
           <img
-            src="src\assets\content\e-commerce-project-logo.svg"
+            src={eCommerceLogo}
             alt="e-commerce project logo"
             className="project-logo"
           />
           <img
-            src="src\assets\content\e-commerce-project-img.svg"
+            src={eCommerceImage}
             alt="e-commerce project image"
             className="project-img"
           />
-          <img
-            src="src\assets\content\e-commerce-project-ellipse.svg"
-            className="project-ellipse"
-          />
+          <img src={eCommerceEllipse} className="project-ellipse" />
         </div>
         <div className="content-box content-portfolio">
           <img
-            src="src\assets\content\beats-learning-project-logo.svg"
+            src={beatsLearningLogo}
             alt="beats-learning project logo"
             className="project-logo"
           />
           <img
-            src="src\assets\content\beats-learning-project-img.svg"
+            src={beatsLearningImage}
             alt="beats-learning project image"
             className="project-img"
           />
-          <img
-            src="src\assets\content\beats-learing-ellipse.svg"
-            className="project-ellipse"
-          />
-          <img
-            src="src\assets\background\Ellipse-7.svg"
-            className="background-ellipse-7"
-          />
+          <img src={beatsLearningEllipse} className="project-ellipse" />
+          <img src={ellipse7} className="background-ellipse-7" />
         </div>
       </div>
     </div>
